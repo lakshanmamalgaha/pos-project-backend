@@ -51,16 +51,6 @@ export class User extends Entity {
     roles?: string[];
 
     @property({
-        type: 'string',
-    })
-    provider?: string;
-
-    @property({
-        type: 'string',
-    })
-    providerId?: string;
-
-    @property({
         type: 'date',
         required: true,
     })
